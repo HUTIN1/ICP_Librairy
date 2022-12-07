@@ -1,26 +1,29 @@
-## 2 methodes:
+# Methodes:
 This methodes can take in input list, np.ndarray, dict, vtkPolyData
-    - vtkICP it is vtk's icp
-    - InitIcp it is pre orientation to get better result with vtk's icp
+#### vtkICP  
+it is vtk's icp 
+
+#### InitIcp
+it is pre orientation to get better result with vtk's icp
 
 
 
-## option:
-    -vtkMeanTeeth
+# Option :
+
+#### vtkMeanTeeth
     In the init you need to give the teeth's number in list and option you can add the segmentaion's name, then when you call the object with vtkPolyData
     return the Mean of each segmenation's tooth
 
-
-    -vtkMiddleTeeth
+#### vtkMiddleTeeth
     In the init you need to give the teeth's number in list and option you can add the segmentaion's name, then when you call the object give vtkPolyData
     return the middle of each tooth
 
 
-    -vtkMeshTeeth
+#### vtkMeshTeeth
      In the init you need to give the teeth's number in list and option you can add the segmentaion's name, then when you call the object give vtkPolyData
      return all point of each tooth select
 
-    -SelectKey
+#### SelectKey
     In the init you need to give the name of key do you want, and when you call the object give dict
     return dict with all key give in init
 
