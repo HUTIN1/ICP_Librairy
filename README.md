@@ -1,4 +1,4 @@
-# Methodes:
+## Methodes:
 This methodes can take in input list, np.ndarray, dict, vtkPolyData
 #### vtkICP  
 it is vtk's icp 
@@ -8,7 +8,7 @@ it is pre orientation to get better result with vtk's icp
 
 
 
-# Option :
+## Option :
 
 #### vtkMeanTeeth
     In the init you need to give the teeth's number in list and option you can add the segmentaion's name, then when you call the object with vtkPolyData
@@ -41,3 +41,7 @@ And run return dic with this key : source, matrix, source_Or (source Oriented), 
 
 ## ToDisplay
 ToDisplay:  Transform list, dict, np.ndarray, vtkPolyData to Mesh
+
+
+## Exemple
+You can watch my main, to understand the logic of my librairy
